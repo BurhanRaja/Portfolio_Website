@@ -7,7 +7,8 @@ module.exports = {
       display: ['Open Sans', 'sans-serif'],
       body: ['Open Sans', 'sans-serif'],
       spanNum: ['Silkscreen', 'cursive'],
-      introHello: ['Roboto Slab', 'serif']
+      introHello: ['Roboto Mono', 'monospace'],
+      myName: ['Inter', 'sans-serif']
     },
     maxWidth: {
       400: '400px',
