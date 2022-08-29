@@ -6,9 +6,10 @@ module.exports = {
     fontFamily: {
       display: ['Open Sans', 'sans-serif'],
       body: ['Open Sans', 'sans-serif'],
-      spanNum: ['Silkscreen', 'cursive'],
-      introHello: ['Roboto Mono', 'monospace'],
-      myName: ['Inter', 'sans-serif']
+      cursive: ['Silkscreen', 'cursive'],
+      roboto: ['Roboto Mono', 'monospace'],
+      interBold: ['Inter', 'sans-serif'],
+      nunito: ['Nunito Sans', 'sans-serif']
     },
     maxWidth: {
       400: '400px',
