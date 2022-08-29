@@ -26,6 +26,9 @@ const Intorduction = () => {
                         <p className='text-slate-200 text-7xl font-interBold my-2'>
                             Burhauddin Raja.
                         </p>
+                        <p className='text-slate-400 text-7xl font-interBold my-2'>
+                            Full Stack Developer.
+                        </p>
                     </div>
                     <div className="download-resume mt-5">
 
