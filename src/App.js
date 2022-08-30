@@ -4,6 +4,7 @@ import Intorduction from './components/Intorduction';
 import Navbar from './components/Navbar';
 import ParallexIntro from './components/ParallexIntro';
 import Projects from './components/Projects';
+import Rocketblastoff from './components/Rocketblastoff';
 import RollingSatellite from './components/RollingSatellite';
 
 function App() {
@@ -17,6 +18,8 @@ function App() {
           <About />
           <RollingSatellite />
           <Projects />
+          <Rocketblastoff />
+          <About />
         </main>
       </ParallaxProvider>
     </div>
