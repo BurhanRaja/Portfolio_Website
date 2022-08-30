@@ -1,5 +1,6 @@
 import { ParallaxProvider } from 'react-scroll-parallax';
 import About from './components/About';
+import Clouds from './components/Clouds';
 import Intorduction from './components/Intorduction';
 import Navbar from './components/Navbar';
 import ParallexIntro from './components/ParallexIntro';
@@ -9,10 +10,10 @@ import RollingSatellite from './components/RollingSatellite';
 
 function App() {
   return (
-    <div className="App" style={{ 'backgroundImage': " url('/assets/Space.jpg')", 'backgroundSize': 'cover', 'overflow': 'hidden' }}>
+    <div className='App bg-gradient-to-b from-black to-[#000d4e] overflow-hidden'>
       <ParallaxProvider>
         <Navbar />
-        <main>
+        <main >
           <ParallexIntro />
           <Intorduction />
           <About />
@@ -20,6 +21,7 @@ function App() {
           <Projects />
           <Rocketblastoff />
           <About />
+          <Clouds />
         </main>
       </ParallaxProvider>
     </div>
