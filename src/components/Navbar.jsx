@@ -3,10 +3,10 @@ import React from 'react'
 
 const Navbar = () => {
 
-    const navigationItems = [{ name: 'About', pathTo: '/#about' }, { name: 'Projects', pathTo: '/#projects' }, { name: 'Experience', pathTo: '/#experience' }, { name: 'Contact', pathTo: '/#contact' }, { name: 'Blogs', pathTo: 'https://burhan-techblogs.netlify.app/' }]
+    const navigationItems = [{ name: 'About', pathTo: '/#about' }, { name: 'Projects', pathTo: '/#projects' }, { name: 'Blogs', pathTo: '/#blog' }, { name: 'Contact', pathTo: '/#contact' }]
 
     return (
-        <motion.header className="text-gray-600 body-font bg-slate-900"
+        <motion.header className="text-gray-600 body-font bg-black"
             initial={{ opacity: 0.2 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.9 }}>

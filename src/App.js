@@ -1,6 +1,9 @@
 import { ParallaxProvider } from 'react-scroll-parallax';
 import About from './components/About';
-import Clouds from './components/Clouds';
+import Blogs from './components/Blogs';
+import Buildings from './components/Buildings';
+import Clouds from './components/Contact';
+import Footer from './components/Footer';
 import Intorduction from './components/Intorduction';
 import Navbar from './components/Navbar';
 import ParallexIntro from './components/ParallexIntro';
@@ -19,9 +22,13 @@ function App() {
           <About />
           <RollingSatellite />
           <Projects />
+          <div className='overflow-hidden'>
           <Rocketblastoff />
-          <About />
+          </div>
+          <Blogs />
           <Clouds />
+          <Buildings />
+          <Footer />
         </main>
       </ParallaxProvider>
     </div>
