@@ -3,8 +3,8 @@ import { Parallax } from 'react-scroll-parallax'
 
 const Rocketblastoff = () => {
     return (
-        <Parallax speed={30} translateX={[-20, 30]} translateY={[-100, -300]} className='absolute h-64 w-full'>
-            <img src="/assets/rocket.png" alt="Rocket" className='relative left-28' style={{ 'height': '20rem', 'width': '20rem' }} />
+        <Parallax translateX={[-10, 80]} translateY={[-200, -800]} className='absolute h-40 w-1/2 '>
+            <img src="/assets/rocket.png" alt="Rocket" className='absolute left-28' style={{ 'height': '15rem', 'width': '15rem' }} />
         </Parallax>
     )
 }

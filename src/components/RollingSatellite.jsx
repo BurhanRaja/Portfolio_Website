@@ -5,8 +5,8 @@ const RollingSatellite = () => {
     return (
         <>
             <Parallax
-                translateX={[-10, 110]}
-                translateY={[10, 190]}
+                translateX={[-10, 150]}
+                translateY={[10, 240]}
                 easing={'easeInOut'}
                 className=' relative'
             >

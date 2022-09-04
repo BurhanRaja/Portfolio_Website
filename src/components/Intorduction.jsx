@@ -13,12 +13,12 @@ const Intorduction = () => {
         return color
     }
     return (
-        <div className='px-28 py-16 mt-10 align-middle'>
+        <div className='px-28 py-16 mt-10 align-middle' style={{"height": "40rem"}}>
             <div className="mx-auto max-w-1000 relative py-5 px-4" style={{'height': '25rem', 'width': '90%'}}>
                 <motion.div className="flex text-center items-center flex-col"
                     initial={{ opacity: 0.4, scale: 0.8 }}
                     animate={{ opacity: 1, scale: 1 }}
-                    transition={{ ease: "easeOut", duration: 1 }}>
+                    transition={{ ease: "easeInOut", duration: 1 }}>
                     <div className="hello my-2">
                         <p className='text-cyan-400 font-roboto text-base'><span className=''>Hi,</span> <span className=''>I am</span></p>
                     </div>
