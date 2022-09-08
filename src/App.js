@@ -4,12 +4,9 @@ import Blogs from './components/Blogs';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Intorduction from './components/Intorduction';
-import Moon from './components/Moon';
 import Navbar from './components/Navbar';
-import ParallexIntro from './components/ParallexIntro';
 import Projects from './components/Projects';
-import RocketblastOff from './components/Rocketblastoff';
-import RollingSatellite from './components/RollingSatellite';
+import Skills from './components/Skills';
 
 function App() {
   return (
@@ -17,14 +14,15 @@ function App() {
       <ParallaxProvider>
         <Navbar />
         <main >
-          <ParallexIntro />
+          {/* <ParallexIntro /> */}
           <Intorduction />
           <About />
-          <RollingSatellite />
+          <Skills />
+          {/* <RollingSatellite /> */}
           <Projects />
-          <Moon />
+          {/* <Moon /> */}
           <Blogs />
-          <RocketblastOff />
+          {/* <RocketblastOff /> */}
           <Contact />
           <Footer />
         </main>
