@@ -4,7 +4,7 @@ import Blogs from './components/Blogs';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Intorduction from './components/Intorduction';
-import Loading from './components/Loading';
+// import Loading from './components/Loading';
 import Navbar from './components/Navbar';
 import Projects from './components/Projects';
 import Skills from './components/Skills';
@@ -16,7 +16,7 @@ function App() {
         <Navbar />
         <main >
           {/* <ParallexIntro /> */}
-          <Loading />
+          {/* <Loading /> */}
           <Intorduction />
           <About />
           <Skills />

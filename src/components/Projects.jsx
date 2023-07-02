@@ -7,7 +7,7 @@ const Projects = () => {
     const slides = [1, 2, 3, 4, 5, 6]
     return (
         <>
-            <div className='relative' id='projects'>
+            <div className='relative pt-32' id='projects'>
                 <section className="text-gray-600 body-font py-10 relative">
                     <div className="project-title text-center">
                         <p className='title-font sm:text-6xl text-3xl mb-4 font-interBold text-gray-100'>Things I have build.</p>

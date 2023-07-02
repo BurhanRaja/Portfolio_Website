@@ -2,7 +2,7 @@ import React from 'react'
 
 const Skills = () => {
     return (
-        <div className='pb-16'>
+        <div className='pb-16 pt-32'>
             <h1 className="title-font sm:text-6xl text-center text-3xl mb-16 font-interBold text-gray-100">Tech I know.
             </h1>
             <div className="flex flex-col mx-auto p-5 justify-center items-center  rounded-xl" style={{ "width": '80%' }}>
