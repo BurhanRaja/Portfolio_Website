@@ -18,7 +18,7 @@ const Clouds = () => {
                                 <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJvmZDsfphTRhwSqdhpNWKMDBbrHbxjpLzjmcxszblwjCvrFVlGvmgHCrZXhHxHCJsCTknV">
                                     <Button name="Say Hello" />
                                 </a>
-                                <p className='my-3 text-center'>Or Connect with me on</p>
+                                <p className='my-3 text-center text-white'>Or Connect with me on</p>
                             </div>
                         </div>
                     </div>
