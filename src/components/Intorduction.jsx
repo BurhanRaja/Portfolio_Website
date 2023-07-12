@@ -13,7 +13,7 @@ const Intorduction = () => {
   };
   return (
     <div
-      className="px-16 py-16 mt-10 bg-gradient-to-r from-[#030a2c] to-black"
+      className="px-16 py-16 mt-10 bg-gradient-to-r from-[#01030c] to-black"
       style={{ height: "40rem" }}
     >
       <div className="flex justify-evenly items-center">
@@ -37,7 +37,7 @@ const Intorduction = () => {
                 Burhauddin Raja.
               </p>
               <p className="text-slate-400 text-7xl font-interBold my-2">
-                Full Stack Developer.
+                A Full Stack Developer.
               </p>
             </div>
             <div className="download-resume mt-5"></div>

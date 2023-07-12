@@ -11,7 +11,7 @@ const Navbar = () => {
             initial={{ opacity: 0.2 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.9 }}>
-            <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+            <div className="container mx-auto flex flex-wrap p-5 pb-0 flex-col md:flex-row items-center">
                 <a className="flex title-font font-medium font-nunito items-center text-gray-900 mb-4 md:mb-0">
                     <span className="ml-3 text-2xl text-white font-interBold">&lt; <span className='text-cyan-400'>B</span> &gt;</span>
                 </a>

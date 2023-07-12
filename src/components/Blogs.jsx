@@ -3,7 +3,7 @@ import Button from "./Button";
 
 const Blogs = () => {
   return (
-    <div>
+    <div className="mt-20">
       {/* bg-gradient-to-t from-[#67b7db] to-transparent */}
       <div className=' relative w-full' style={{ height: "29rem" }} id='blog'>
         <section className='text-gray-600 body-font w-full relative'>

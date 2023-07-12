@@ -8,6 +8,7 @@ import Intorduction from './components/Intorduction';
 import Navbar from './components/Navbar';
 import Projects from './components/Projects';
 import Skills from './components/Skills';
+import OpenSource from './components/OpenSource';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Skills />
           {/* <RollingSatellite /> */}
           <Projects />
+          <OpenSource />
           {/* <Moon /> */}
           <Blogs />
           {/* <RocketblastOff /> */}
