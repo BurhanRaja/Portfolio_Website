@@ -13,16 +13,14 @@ const Intorduction = () => {
   };
   return (
     <div
-      className="px-16 py-16 mt-10 bg-gradient-to-r from-[#01030c] to-black"
-      style={{ height: "40rem" }}
+      className="lg:p-16 md:p-14 sm:p-12 p-5 mt-10 bg-gradient-to-r from-[#01030c] to-black"
     >
-      <div className="flex justify-evenly items-center">
+      <div className="flex justify-evenly items-center flex-wrap-reverse lg:flex-row md:flex-col-reverse">
         <div
-          className="max-w-1000 flex justify-start items-center relative py-5 px-4"
-          style={{ height: "25rem", width: "60%" }}
+          className="max-w-1000 lg:w-[60%] md:w-[90%] sm:w-[100%] flex justify-start sm:justify-center lg:items-center md:items-start sm:items-start items-center md:mt-5 relative py-5 px-4"
         >
           <motion.div
-            className="flex text-start items-start flex-col"
+            className="flex lg:text-start md:text-center sm:text-center lg:items-start md:items-center sm:items-center text-center items-center flex-col"
             initial={{ opacity: 0.4, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ ease: "easeInOut", duration: 1 }}
@@ -33,17 +31,17 @@ const Intorduction = () => {
               </p>
             </div>
             <div className="name">
-              <p className="text-slate-200 text-7xl font-interBold my-2">
+              <p className="text-slate-200 xl:text-7xl lg:text-6xl md:text-6xl sm:text-5xl text-4xl font-interBold my-2">
                 Burhauddin Raja.
               </p>
-              <p className="text-slate-400 text-7xl font-interBold my-2">
+              <p className="text-slate-400 xl:text-6xl lg:text-5xl md:text-5xl sm:text-4xl text-3xl font-interBold my-2">
                 A Full Stack Developer.
               </p>
             </div>
             <div className="download-resume mt-5"></div>
           </motion.div>
         </div>
-        <div className="flex w-[40%]">
+        <div className="flex justify-center lg:w-[40%] md:w-[40%] sm:w-[80%]">
           <img
             src="/assets/space-loading.gif"
             alt="Space"
