@@ -39,18 +39,22 @@ const projectData = [
   {
     name: "ScripVault",
     image: "./assets/scripvault.png",
-    description: "ScripVault is an Investment Advisory Application. Here, the user can select and define there investment plans. They can select from Stocks, Mutual Funds or ETFs to invest.",
+    description:
+      "ScripVault is an Investment Advisory Application. Here, the user can select and define there investment plans. They can select from Stocks, Mutual Funds or ETFs to invest.",
+    github: "https://github.com/BurhanRaja/Scripvault",
+    project: "https://scripvault.netlify.app/",
     tech: [
       "Reactjs",
       "Nodejs",
       "Expressjs",
       "MongoDB",
-      "Redis",
       "Python",
       "TailwindCSS",
       "Vercel",
+      "Python",
+      "FastAPI"
     ],
   },
 ];
 
-export default projectData
+export default projectData;
